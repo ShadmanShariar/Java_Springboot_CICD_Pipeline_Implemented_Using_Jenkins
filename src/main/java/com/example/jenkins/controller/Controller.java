@@ -10,6 +10,9 @@ public class Controller {
     public String greet(){
         return "CICD using Jenkins for test";
     }
-
+    @GetMapping("/messages")
+    public String greets(){
+        return "CICD using Jenkins for tests";
+    }
 
 }
