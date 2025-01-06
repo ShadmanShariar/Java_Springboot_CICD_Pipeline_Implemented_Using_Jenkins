@@ -8,7 +8,7 @@ public class Controller {
 
     @GetMapping("/message")
     public String greet(){
-        return "CICD using Jenkins for test";
+        return "CICD using Jenkins for testing";
     }
 
 }
